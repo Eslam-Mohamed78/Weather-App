@@ -55,7 +55,7 @@ function gettingDate(d) {
 // ===== fetching data from weather api =====
 async function weather(city) {
   const result = await fetch(
-    `https://api.weatherapi.com/v1/forecast.json?key=167454944e8b4031bfb175855231802&q=${city}&days=3`
+    `https://api.weatherapi.com/v1/forecast.json?key=a98ebbee63a147c0877141605232202&q=${city}&days=3`
   );
   data = await result.json();
   console.log(city, data);
